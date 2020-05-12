@@ -1,0 +1,11 @@
+1-a pessoa compra tudo que quer;
+2-eu recebo o codigo da compra;
+3-salvo no bd o codigo da compra e retorno o serial para o cliente por email e na tela
+3-cliente vai ate a loja com o codigo e vendendor autentica o codigo e verifica pagamento
+
+1-recebe o codigo
+2-insere no bd o codigo+senha se ok passo3 senao  passo6
+3-envia por email contido no xml se ok passo4 senao passo5
+4-prepara pagina resposta
+//5-pede um email confiavel
+//6-tenta reenviar os dados para o db, informa o codigo da compra e continua no passo3
